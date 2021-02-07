@@ -8,7 +8,7 @@
 
 ### 🐾 Antes de empezar recuerda: ###
 
-- Debes tene Node.js instalado 📌
+- Debes tener Node.js instalado 📌
 - Conexion a internet 📡
 
 Para correr el proyecto solo debes ejecutar:
