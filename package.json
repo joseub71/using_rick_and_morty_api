@@ -1,0 +1,22 @@
+{
+  "name": "using_rick_and_morty_api",
+  "version": "1.0.0",
+  "description": "Rick and Morty Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseub71/using_rick_and_morty_api.git"
+  },
+  "author": "joseub71",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseub71/using_rick_and_morty_api/issues"
+  },
+  "homepage": "https://github.com/joseub71/using_rick_and_morty_api#readme",
+  "dependencies": {
+    "rickmortyapi": "^0.3.0"
+  }
+}
