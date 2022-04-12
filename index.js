@@ -1,13 +1,7 @@
 const getData = require('./controllers/getData')
 const charCounter = require('./controllers/charCounter')
 
-console.log(`
- ██████╗██╗  ██╗ ██╗ ██████╗  █████╗ ██╗  ██╗                                                                
-██╔════╝██║  ██║ ██║ ██╔══██╗██╔══██╗╚██╗██╔╝                                                                
-██║     ███████║ ██║ ██████╔╝███████║ ╚███╔╝                                                                 
-██║     ██╔══██║ ██║ ██╔═══╝ ██╔══██║ ██╔██╗                                                                 
-╚██████╗██║  ██║ ██║ ██║     ██║  ██║██╔╝ ██╗                                                                
- ╚═════╝╚═╝  ╚═╝ ╚═╝ ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝                                                                
+console.log(`                                                  
                                                                                                            
 ██████╗ ██╗ ██████╗██╗  ██╗     █████╗ ███╗   ██╗██████╗     ███╗   ███╗ ██████╗ ██████╗ ████████╗██╗   ██╗
 ██╔══██╗██║██╔════╝██║ ██╔╝    ██╔══██╗████╗  ██║██╔══██╗    ████╗ ████║██╔═══██╗██╔══██╗╚══██╔══╝╚██╗ ██╔╝
@@ -17,7 +11,7 @@ console.log(`
 ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝     ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝      ╚═╝ 
 `)
 
-const callChipaxTest = async ()=> {
+const callTest = async ()=> {
     console.time("Tiempo total ⛅️")
     // Barra de progreso
     const P = ['\\', '|', '/', '-'];
@@ -44,4 +38,4 @@ const callChipaxTest = async ()=> {
     console.timeEnd("Tiempo total ⛅️")
 }
 
-callChipaxTest()
+callTest()
