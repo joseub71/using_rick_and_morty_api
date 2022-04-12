@@ -3,8 +3,8 @@ const rickMortyApi = require('rickmortyapi')
 
 /**
  * Patron de diseño creacional (Factory)
- * Asumiendo que debo traer toda la data (getCharacter(34) * 20 = 680, getLocation(6) * 20 = 120, getEpisode(3) * 20 = 60) 
- * Total = 860 (array) 
+ * Asumiendo que debo traer toda la data (getCharacter(34) * 20 = 680, getLocation(6) * 20 = 108, getEpisode(3) = 41) 
+ * Total =  (array) 
  * 
  * Retorna un arreglo con el array de cada pagina del API
  *
